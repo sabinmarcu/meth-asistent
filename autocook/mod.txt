@@ -1,0 +1,15 @@
+{
+  "name" : "Rats Auto Cooking",
+  "description" : "Auto cook Rats or Cook Off",
+  "priority": 100,
+  "keybinds": [
+    {
+      "keybind_id" : "autocook",
+      "name": "Autocook",
+      "description": "Turn on autocook",
+      "script_path" : "lua/ratsauto.lua",
+      "run_in_menu" : true,
+      "run_in_game" : true,
+    }
+  ]
+}
