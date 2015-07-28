@@ -1,0 +1,12 @@
+{
+  "keybind_id" : "9",
+  "name" : "Globals",
+  "description" : "Globals toolbox",
+  "priority": 1,
+  "persist_scripts" : [
+    {
+      "global" : "GlobalScriptInitialized",
+      "script_path" : "scripts/global.lua"
+    }
+  ]
+}
